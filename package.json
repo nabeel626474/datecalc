@@ -4,10 +4,16 @@
   "description": "Static export of Date Calculator",
   "main": "server.py",
   "scripts": {
-    "dev": "python server.py",
-    "start": "python server.py"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
 }
